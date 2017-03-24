@@ -9,3 +9,14 @@ input, textarea {
 input[type="radio"] + label::before {
   border-color: #6e8c62;
 }
+
+header, footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border: none;
+  color: #fff:
+}
