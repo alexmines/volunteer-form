@@ -1,0 +1,11 @@
+input[type="checkbox"] + label::before {
+  border-color: #6e8c62;
+}
+
+input, textarea {
+  border-color: #6e8c62;
+}
+
+input[type="radio"] + label::before {
+  border-color: #6e8c62;
+}
