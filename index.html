@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <title>Volunteer Form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 
@@ -16,7 +16,7 @@
     <p class="header-p">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
   </header>
   <fieldset>
-    <legend>Personal details</legend>
+    <legend class="pad-t-2 exa">Personal details</legend>
     <div class="grid">
       <div class="unit xs-1">
         <label for="name">Full name</label>
@@ -59,7 +59,7 @@
     </div>
   </fieldset>
   <fieldset>
-    <legend>Address</legend>
+    <legend class="pad-t-2 exa">Address</legend>
     <div class="grid">
       <div class="unit xs-1">
         <label for="address">Street adress</label>
@@ -96,7 +96,7 @@
   <fieldset>
     <div class="grid">
       <div class="unit">
-        <legend>What activities are you interested in helping with?</legend>
+        <legend class="pad-t-2 exa">What activities are you interested in helping with?</legend>
         <div>
           <input id="digging-holes" name="activities" type="checkbox">
           <label for="digging-holes">Digging holes</label>
@@ -131,7 +131,7 @@
         </div>
       </div>
       <div class="unit">
-        <legend>Do you have any experience with the following?</legend>
+        <legend class="pad-t-2 exa">Do you have any experience with the following?</legend>
         <div>
           <input id="shovels" name="experience" type="checkbox">
           <label for="shovels">Shovels</label>
@@ -174,7 +174,7 @@
         </div>
       </div>
       <div class="unit">
-        <legend>Do you have a valid driver's license?</legend>
+        <legend class="pad-t-2 exa">Do you have a valid driver's license?</legend>
         <div>
           <input id="yes-license" name="license" type="radio">
           <label for="yes-license">Yes</label>
@@ -183,7 +183,7 @@
         </div>
       </div>
       <div class="unit">
-        <legend>Do you have a pick-up truck you'd be willing to use?</legend>
+        <legend class="pad-t-2 exa">Do you have a pick-up truck you'd be willing to use?</legend>
         <div>
           <input id="yes-truck" name="truck" type="radio">
           <label for="yes-truck">Yes</label>
@@ -192,7 +192,7 @@
         </div>
       </div>
       <div class="unit">
-        <legend>Do you have up-to-date first-aid certification?</legend>
+        <legend class="pad-t-2 exa">Do you have up-to-date first-aid certification?</legend>
         <div>
           <input id="yes-first-aid" name="first-aid" type="radio">
           <label for="yes-first-aid">Yes</label>
@@ -205,17 +205,15 @@
   <fieldset>
     <div class="grid">
       <div class="unit">
-        <legend>Please let us know any comments or questions you may have.</legend>
+        <legend class="pad-t-2 exa">Please let us know any comments or questions you may have.</legend>
         <textarea id="reason" name="reason"></textarea>
       </div>
     </div>
   </fieldset>
-  <div class="center">
+  <div class="unit center xs-1">
     <button class="btn center" type="apply">Apply</button>
   </div>
   <footer>© Tree Hugger International Organization</footer>
-
-
 
 </body>
 </html>

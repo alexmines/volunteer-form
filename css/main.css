@@ -20,3 +20,7 @@ header, footer {
   border: none;
   color: #fff:
 }
+
+html {
+  font-family: "Droid Serif", serif;
+}
