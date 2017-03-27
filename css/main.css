@@ -24,3 +24,7 @@ header, footer {
 html {
   font-family: "Droid Serif", serif;
 }
+
+fieldset {
+  border-style: none;
+}
