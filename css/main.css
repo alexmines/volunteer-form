@@ -1,3 +1,7 @@
+html {
+  font-family: "Droid Serif", serif;
+}
+
 input[type="checkbox"] + label::before {
   border-color: #6e8c62;
 }
@@ -21,10 +25,11 @@ header, footer {
   color: #fff;
 }
 
-html {
-  font-family: "Droid Serif", serif;
-}
-
 fieldset {
   border-style: none;
+}
+
+hr {
+  border-color: #70ad55;
+  border-width: thin;
 }
