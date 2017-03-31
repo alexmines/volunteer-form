@@ -33,3 +33,8 @@ hr {
   border-color: #70ad55;
   border-width: thin;
 }
+
+.no-auto-margins {
+  margin-right: 0;
+  margin-left: 0;
+}
