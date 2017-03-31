@@ -8,36 +8,36 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700" rel="stylesheet">
 </head>
 <body>
 
-  <header class="island-1-2">
-    <h1 class="yotta push-1-4 pad-t-1-2">Apply to be a tree planter</h1>
-    <p class="header-p tera">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+  <header class="island-1-2 wrapper">
+    <h1 class="exa push-1-4 pad-t-1-2 bold">Apply to be a tree planter</h1>
+    <p class="header-p mega bold">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
   </header>
-  <form>
+  <form class="wrapper">
     <fieldset class="gutter-1-2 pad-t pad-b-1-2">
-      <legend class="pad-t-2 giga">Personal details</legend>
+      <legend class="pad-t-2 giga bold">Personal details</legend>
       <div class="grid">
         <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
-          <label for="name" class="giga">Full name?</label>
+          <label for="name" class="mega">Full name</label>
           <input id="name" name="name">
           <p class="italic">Your full legal name, for insurance purposes, e.g. "Elizabeth Bradley".</p>
         </div>
         <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
-          <label for="call" class="giga">What should we call you?</label>
+          <label for="call" class="mega">What should we call you?</label>
           <input id="call" name="call">
           <p class="italic">What all your friends call you, e.g. “Liz”.</p>
         </div>
         <div class="unit xs-1 s-1 m-1-2 pad-b gutter-1-2">
-          <label for="date" class="giga">Date of birth</label>
+          <label for="date" class="mega">Date of birth</label>
           <input type="date" id="date" name="date">
         </div>
         <div class="unit xs-1 s-1 m-1-2 pad-b gutter-1-2">
-          <label for="subject" class="giga">T-shirt size</label>
+          <label for="subject" class="mega">T-shirt size</label>
           <select id="subject" name="_subject">
-            <option>Select a t-shirt size</option>
+            <option value="">Select a t-shirt size</option>
             <option>Fitted: XS</option>
             <option>Fitted: S</option>
             <option>Fitted: M</option>
@@ -51,29 +51,29 @@
           </select>
         </div>
         <div class="unit xs-1 s-1 m-1-2 pad-b gutter-1-2">
-          <label for="email" class="giga">Email</label>
+          <label for="email" class="mega">Email</label>
           <input id="email" type="email">
         </div>
         <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
-          <label for="tel" class="giga">Phone number<span class="opt italic"> (optional)</span></label>
+          <label for="tel" class="mega">Phone number<span class="opt italic"> (optional)</span></label>
           <input id="tel" type="tel">
         </div>
       </div>
     </fieldset>
     <hr>
     <fieldset class="island-1-2">
-      <legend class="giga">Address</legend>
+      <legend class="giga bold">Address</legend>
       <div class=" grid pad-b-1-2">
         <div class="unit xs-1 s-1 m-1-2 pad-t pad-b-1-2 gutter-1-2">
-          <label for="address" class="giga">Street adress</label>
+          <label for="address" class="mega">Street adress</label>
           <input id="address" name="address">
         </div>
         <div class="unit xs-1 s-1 m-1-2 pad-b-1-2">
-          <label for="city" class="giga pad-t gutter-1-2">City</label>
+          <label for="city" class="mega pad-t gutter-1-2">City</label>
           <input id="city" name="city">
         </div>
         <div class="unit xs-1 s-1 m-1-2 pad-b-1-2 gutter-1-2">
-          <label for="prov" class="giga pad-t">Province</label>
+          <label for="prov" class="mega pad-t">Province</label>
           <select id="prov" name="prov">
             <option>Select a province</option>
             <option>Alberta</option>
@@ -91,7 +91,7 @@
           </select>
         </div>
         <div class="unit xs-1 s-1 m-1-2">
-          <label for="postal" class="giga pad-t gutter-1-2">Postal code</label>
+          <label for="postal" class="mega pad-t gutter-1-2">Postal code</label>
           <input id="postal" name="postal">
         </div>
       </div>
@@ -220,15 +220,15 @@
     <hr>
     <fieldset>
       <div class="grid island-1-2">
-        <fieldset class="unit">
+        <fieldset class="unit xs-1">
           <legend class="pad-t-2 giga">Please let us know any comments or questions you may have.</legend>
           <textarea id="reason" name="reason"></textarea>
           <hr>
         </fieldset>
       </div>
     </fieldset>
-    <div class="center">
-      <button class="btn center" type="submit">Apply</button>
+    <div class="text-center">
+      <button class="btn text-center" type="submit">Apply</button>
     </div>
   </form>
   <footer class="gutter pad-t-2 pad-b-1-2">
